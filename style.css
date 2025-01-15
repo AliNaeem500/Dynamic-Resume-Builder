@@ -1,0 +1,115 @@
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+
+body {
+    background-color: yellow;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5em;
+    color: #4CAF50;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+fieldset {
+    border: 1px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+
+legend {
+    font-size: 1.2px;
+    color: #333;
+    padding: 0.5px;
+    border: 1px;
+
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="education"],
+input[type="experience"],
+input[type="skills"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: aqua;
+    color: black;
+    border: black;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointing;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+@media (max-width: 768px) {
+    form {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+}
+   
+
+#resumeOutput  {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+} 
+
+#resumeOutput h2 {
+    color:black;
+}
